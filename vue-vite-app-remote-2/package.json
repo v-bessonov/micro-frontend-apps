@@ -1,0 +1,24 @@
+{
+  "name": "vue-vite-app-remote-2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5002 --strictPort",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview --port 5002 --strictPort",
+    "clean": "rm -rf dist",
+    "stop": "kill-port --port 5002"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "^1.4.1",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.8"
+  }
+}
