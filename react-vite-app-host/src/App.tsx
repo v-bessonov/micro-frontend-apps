@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import ReactButtonRemoteApp1 from 'react-vite-app-remote-1/ReactButtonRemoteApp1';
+import ReactButtonRemoteApp2 from 'react-vite-app-remote-2/ReactButtonRemoteApp2';
 
 function App() {
     const [count, setCount] = useState(0)
@@ -26,7 +27,10 @@ function App() {
                         </button>
                     </li>
                     <li>
-                        <ReactButtonRemoteApp1/>c
+                        <ReactButtonRemoteApp1/>
+                    </li>
+                    <li>
+                        <ReactButtonRemoteApp2/>
                     </li>
                 </ul>
                 <p>

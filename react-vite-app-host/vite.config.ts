@@ -8,6 +8,7 @@ export default defineConfig({
         name: 'react-vite-app-host',
         remotes: {
             "react-vite-app-remote-1": 'http://localhost:9001/assets/remoteEntry.js',
+            "react-vite-app-remote-2": 'http://localhost:9002/assets/remoteEntry.js',
         },
         shared: ['react', 'react-dom']
     })],
