@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {ref} from 'vue'
-import ButtonRemoteApp1 from 'vue-vite-app-remote-1/ButtonRemoteApp1'
-import ButtonRemoteApp2 from 'vue-vite-app-remote-2/ButtonRemoteApp2'
+import VueButtonRemoteApp1 from 'vue-vite-app-remote-1/VueButtonRemoteApp1'
+import VueButtonRemoteApp2 from 'vue-vite-app-remote-2/VueButtonRemoteApp2'
 
 defineProps<{ msg: string }>()
 
@@ -18,10 +18,10 @@ const count = ref(0)
         <button type="button" @click="count++" style="width: 250px">Local Vue App count is {{ count }}</button>
       </li>
       <li>
-        <ButtonRemoteApp1/>
+        <VueButtonRemoteApp1/>
       </li>
       <li>
-        <ButtonRemoteApp2/>
+        <VueButtonRemoteApp2/>
       </li>
     </ul>
     <p>

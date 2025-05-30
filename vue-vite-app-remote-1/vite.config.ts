@@ -8,7 +8,7 @@ export default defineConfig({
         name: 'vue-vite-app-remote-1',
         filename: 'remoteEntry.js',
         exposes: {
-            './ButtonRemoteApp1': './src/components/ButtonRemoteApp1.vue',
+            './VueButtonRemoteApp1': './src/components/VueButtonRemoteApp1.vue',
         },
         shared: ['vue']
     })],

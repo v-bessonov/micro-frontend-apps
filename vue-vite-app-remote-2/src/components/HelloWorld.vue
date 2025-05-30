@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ButtonRemoteApp2 from "./ButtonRemoteApp2.vue";
+import VueButtonRemoteApp2 from "./VueButtonRemoteApp2.vue";
 
 defineProps<{ msg: string }>()
 
@@ -9,7 +9,7 @@ defineProps<{ msg: string }>()
   <h1>{{ msg }}</h1>
 
   <div class="card">
-    <ButtonRemoteApp2/>
+    <VueButtonRemoteApp2/>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
